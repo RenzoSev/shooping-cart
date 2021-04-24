@@ -1,7 +1,7 @@
 # 🛒 Shopping Cart 🛒 
 ## 🎨 Project 🎨
 __Developed with 2 months at Trybe__. 
-</br>
+</br></br>
 Basically it is a __Web Store__ developed with [Mercado Livre's API.](https://api.mercadolibre.com/sites#json)
 </br></br>
 You can know more about __Trybe__ [clicking here!](https://www.betrybe.com/)
