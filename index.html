@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/8c5e05b8e8.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header>
+      <i class="fas fa-search"></i>
+      <h1>Store</h1>
+      <input type="text id" class="search-header" placeholder="Pesquisar...">
+      <div class="shopping-ico">
+        <i class="fas fa-shopping-bag"></i>
+        <p class="number-cart"></p>
+      </div>
+    </header>
+    <section class="container">
+      <section class="items">
+        <div id="div-search-container">
+          <div class="div-search">
+            <input type="text" name="search-items" id="search-items" placeholder="Buscar por produto">
+            <i class="fas fa-search" id="search-item-click"></i>
+          </div>
+          <p class="p-search">Pesquise por algum produto, marca e muito mais...</p>
+        </div>
+      </section>
+      <section class="cart">
+        <h2 class="cart__title">Carrinho de compras</h2>
+        <span class="empty-cart">Esvaziar carrinho</span>
+        <section class="cart__items"></section>
+        <p class="total-price"></p>
+      </section>
+      <section class="search">
+        <input type="text" name="search" id="search" placeholder="Pesquisar...">
+      </section>
+    </section>
+    <div class="loading">
+      <div class="lds-ellipsis"><div></div><div></div><div></div><div></div></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
