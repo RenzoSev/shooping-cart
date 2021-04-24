@@ -18,4 +18,4 @@ Renzo Sevilha
 ### Find me:
 [Linkedin](https://www.linkedin.com/in/renzo-sevilha/)
 </br>
-[Email](sevilharenzo@gmail.com)
+sevilharenzo@gmail.com
